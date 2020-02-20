@@ -1,7 +1,7 @@
 {
   "name": "react-native-react-native-plain-toaster",
   "title": "React Native React Native Plain Toaster",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react native android toast library",
   "main": "index.js",
   "scripts": {
