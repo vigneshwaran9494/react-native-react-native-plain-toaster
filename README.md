@@ -1,13 +1,21 @@
 # react-native-react-native-plain-toaster
 React Native Toast Native Module 
 
-*this is react native android toast message which is use native toast.*
+*this is react native android toast message which is use native toast*
+
+**This is  experimental project**
+
+# Itegration
+
+    $ npm i react-native-react-native-plain-toaster
+    
+    $ react-native link react-native-react-native-plain-toaster
+
 
 # Implementation
+ 
 
-    import { NativeModules } from 'react-native';
+      import  ReactNativePlainToaster  from  "react-native-react-native-plain-toaster";
     
-    const { ReactNativePlainToaster } = NativeModules;
     
-    ReactNativePlainToaster.showToastMessage("Hello World.!");
-
+    ReactNativePlainToaster.showToastMessage("Hello world.!");
